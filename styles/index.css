@@ -68,7 +68,7 @@ button {
   background-color: var(--color-dashboard-background);
   color: var(--color-white);
   border: none;
-  width: 90px;
+  width: 100px;
   padding: 10px 20px;
   border-radius: 40px;
   font-weight: bold;
