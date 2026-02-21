@@ -19,6 +19,24 @@ nav {
   color: var(--color-white);
   background-color: var(--color-dashboard-background);
 }
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 2.5em;
+  gap: 10px;
+}
+.support {
+  padding-top: 2.5em;
+}
+nav > p {
+  position: fixed;
+  left: 1.5%;
+  bottom: 20px;
+  overflow-wrap: break-word;
+  width: clamp(20ch, 20%, 55ch);
+}
 main {
   display: grid;
   grid-template-rows: 1fr 4fr;
@@ -26,17 +44,11 @@ main {
 .dashboard-list {
   display: flex;
   align-items: center;
-  padding-left: 2em;
+  padding-left: 3em;
   padding-bottom: 1em;
 }
 .dashboard-list img {
   padding-right: 1.5em;
-}
-nav > p {
-  position: fixed;
-  left: 2%;
-  bottom: 20px;
-  overflow-wrap: break-word;
 }
 .header {
   display: grid;
