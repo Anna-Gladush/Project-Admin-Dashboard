@@ -13,7 +13,7 @@
 }
 body {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
 }
 nav {
   position: relative;
@@ -107,10 +107,15 @@ button {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
 }
-.projects:first-line,
-.right:first-line,
+.projects > p,
+.right > p,
 #p-trend {
   font-weight: bold;
+  padding-top: 20px;
+}
+.right > p,
+#p-trend {
+  padding-bottom: 15px;
 }
 .card {
   background-color: var(--color-white);
@@ -142,7 +147,6 @@ button {
   padding-bottom: 15px;
 }
 .profile-trend p {
-  padding-left: 15px;
   text-align: left;
 }
 .profile-trend div:first-line {
