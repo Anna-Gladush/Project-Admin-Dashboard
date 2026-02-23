@@ -63,17 +63,21 @@
   <main>
     <div class="header">
       <div class="search-panel">
-        <img src="images/icons/search.svg" alt="search-icon" width="25px">
-        <input type="text">
-        <img src="images/icons/bell-ring-outline.svg" alt="bell-icon" width="25px">
-        <img src="images/profile/flamingo.svg" alt="profile-picture"  width="50px">
-        <p>Morgan Oakley</p>
+        <div id="search-input">
+          <img src="images/icons/search.svg" alt="search-icon" width="25px">
+          <input type="text">
+        </div>
+        <div id="search-profile-info">
+          <img src="images/icons/bell-ring-outline.svg" alt="bell-icon" width="25px">
+          <img src="images/profile/flamingo.svg" alt="profile-picture"  width="50px">
+          <p>Morgan Oakley</p>
+        </div>
       </div>
       <div class="action-panel">
         <div class="profile-greeting">
           <img src="images/profile/flamingo.svg" alt="profile-picture"  width="75px">
           <div class="greeting">
-            <p>Hi there,</p>
+            <p id="small">Hi there,</p>
             <p>Morgan Oakley (@morgan)</p>
           </div>
         </div>
@@ -149,17 +153,17 @@
         <p>Announcements</p>
         <div class="announcement">
           <div>
-            <p>Site Maintenance</p>
+            <p class="title">Site Maintenance</p>
             <p>Nunc eleifend porta risus, gravida porta dolor pretium sed. Nullam accumsan bibendum elit sed interdum. Curabitur eleifend neque id est fringilla hendrerit.</p>
           </div>
           <p class="underline"></p>
           <div>
-            <p>Community Share Day</p>
+            <p class="title">Community Share Day</p>
             <p> Sed eu orci efficitur, blandit est vitae, dapibus urna. In luctus pharetra nibh, quis sagittis est volutpat sit amet.</p>
           </div>
           <p class="underline"></p>
           <div>
-            <p>Updated Privacy Policy</p>
+            <p class="title">Updated Privacy Policy</p>
             <p>Aenean ac odio eget odio lacinia pharetra at nec turpis. In faucibus id augue quis mollis. Suspendisse laoreet viverra nibh, in blandit orci congue a. Aenean dapibus blandit neque quis volutpat. Ut mollis urna ex, nec aliquet ex maximus at. </p>
           </div>
         </div>
