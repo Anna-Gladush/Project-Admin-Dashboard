@@ -2,7 +2,6 @@
   font-family: Roboto, Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 :root {
   /* --color-border: #F0B429; #FE9E5B */
@@ -47,6 +46,7 @@ main {
   padding-left: 3em;
   padding-bottom: 1em;
   font-weight: bold;
+  font-size: 16px;
   letter-spacing: 1px;
 }
 .dashboard-list img {
