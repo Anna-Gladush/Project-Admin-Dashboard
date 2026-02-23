@@ -40,7 +40,7 @@ nav > p {
 }
 main {
   display: grid;
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: 200px 4fr;
 }
 .dashboard-list {
   display: flex;
@@ -55,7 +55,7 @@ main {
 }
 .header {
   display: grid;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
 }
 input {
   background-color: var(--color-gray);
@@ -76,4 +76,50 @@ button {
 }
 .main-board {
   background-color: var(--color-gray);
+}
+.search-panel {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header p {
+  font-weight: bold;
+}
+.action-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.profile-greeting {
+  display: flex;
+  align-items: center;
+}
+.greeting::first-line {
+  font-size: 0.7em;
+}
+.main-board {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.card-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+}
+.projects:first-line,
+.right:first-line,
+#p-trend {
+  font-weight: bold;
+}
+.card {
+  background-color: var(--color-white);
+  height: 25vw;
+  padding: 20px;
+  margin: 1em;
+  border-left: var(--color-border) 12px solid;
+  border-radius: 10px;
+}
+img[width="25px"],
+img[width="25px"] + p,
+button {
+  cursor: pointer;
 }
